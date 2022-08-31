@@ -56,40 +56,24 @@ public class Main {
         if(monthNumber>=1 && monthNumber<=12){
             switch (monthNumber) {
                 case 1:
-                    System.out.println("Jan\n");
-                    break;
                 case 2:
-                    System.out.println("Feb\n");
+                case 12:
+                    System.out.println("Winter\n");
                     break;
                 case 3:
-                    System.out.println("March\n");
-                    break;
                 case 4:
-                    System.out.println("Apr\n");
-                    break;
                 case 5:
-                    System.out.println("May\n");
+                    System.out.println("Spring\n");
                     break;
                 case 6:
-                    System.out.println("Jun\n");
-                    break;
                 case 7:
-                    System.out.println("Jul\n");
-                    break;
                 case 8:
-                    System.out.println("Aug\n");
+                    System.out.println("Summer\n");
                     break;
                 case 9:
-                    System.out.println("Sept\n");
-                    break;
                 case 10:
-                    System.out.println("Oct\n");
-                    break;
                 case 11:
-                    System.out.println("Nov\n");
-                    break;
-                case 12:
-                    System.out.println("Dec\n");
+                    System.out.println("Autumn\n");
             }
         }else{
             System.out.println("Unknown entry\n");
